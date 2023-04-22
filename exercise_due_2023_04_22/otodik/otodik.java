@@ -14,19 +14,19 @@ public class otodik {
         System.out.print("Jelszó: ");
         jelszo=input.nextLine();
         int probalkozasok = 0;
-        while(!(felhasznaloNev.equals(nev) & felhasznaloJelszo.equals(jelszo))  && probalkozasok < 2){
-            System.out.println("Rossz felhasználónév vagy jelszó!");
+        while(!(felhasznaloNev.equals(nev) && felhasznaloJelszo.equals(jelszo))  && probalkozasok < 2){
+            System.out.println("Rossz felhasználónév vagy jelszó! Probalkozas "+probalkozasok);
             System.out.print("Felhasználónév: ");
             nev=input.nextLine();
             System.out.print("Jelszó: ");
             jelszo=input.nextLine();
             probalkozasok++;
         }
-        if(probalkozasok < 3){
+        if(felhasznaloNev.equals(nev) && felhasznaloJelszo.equals(jelszo)){
             System.out.println("Üdvözöljük újra!");
         }
         else{
-            System.out.println("Sajnos túllépte a maximális próbálkozások számát. Próbálja újra 3 perc múlva!");
+            System.out.println("Sajnos túllépte a maximális próbálkozások számát.");
         }
         input.close();
     }
