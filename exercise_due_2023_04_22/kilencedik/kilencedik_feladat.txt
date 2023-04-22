@@ -1,0 +1,7 @@
+Jelenítse meg az egyes adattípusok legnagyobb és legkisebb értékét!
+ byte largestByte = Byte.MAX_VALUE; 
+ short largestShort = Short.MAX_VALUE; 
+ int largestInteger = Integer.MAX_VALUE; 
+ long largestLong = Long.MAX_VALUE; 
+ float largestFloat = Float.MAX_VALUE; 
+ double largestDouble = Double.MAX_VALUE;
