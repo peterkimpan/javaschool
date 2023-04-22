@@ -19,6 +19,6 @@ public class hatodik {
         else{
             System.out.println("A szám pozitív");
         }
-
+        input.close();
     }
 }
