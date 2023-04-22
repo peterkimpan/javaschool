@@ -1,0 +1,2 @@
+For ciklus használatával oldja meg a következő feladatot:
+1-től 1000-ig jelenítse meg a 7-tel osztható számokat. (Egy szám osztható 7-tel, ha a 7-tel való osztás maradéka=0)
