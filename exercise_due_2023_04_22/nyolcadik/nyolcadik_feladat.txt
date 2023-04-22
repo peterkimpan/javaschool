@@ -1,0 +1,9 @@
+Kérjen be egy időpontot. Például 12:34
+Tanulmányozza a következő oldalt:
+https://docplayer.hu/4355790-Pontos-ido-megadasa-neha-szukseges-lehet-megjelolni-hogy-delelotti-vagy-delutani-esti-idopontrol-van-e-szo-ezt-ketfele-keppen-tehetjuk-meg.html
+
+2 perccel múlt negyed 4
+It’s 17 minutes past 3
+
+
+jelenítse meg ennek megfelelően az időpontot!

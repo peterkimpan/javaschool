@@ -1,0 +1,4 @@
+Kérjen be egy számot, majd vizsgálja meg a következőket:
+1. páros/páratlan
+2. negatív/pozitív
+Használjon if szerkezetet a megoldáshoz!

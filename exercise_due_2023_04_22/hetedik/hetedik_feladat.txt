@@ -1,0 +1,6 @@
+switch szerkezetet használva végezze el a feladatot!
+Kérjen be az órát:  pl 12
+Nézze meg a következő oldalt: 
+ https://docplayer.hu/4355790-Pontos-ido-megadasa-neha-szukseges-lehet-megjelolni-hogy-delelotti-vagy-delutani-esti-idopontrol-van-e-szo-ezt-ketfele-keppen-tehetjuk-meg.html 
+
+A bekért óra és az angol megfelelő szerint írja ki az időpontot!
