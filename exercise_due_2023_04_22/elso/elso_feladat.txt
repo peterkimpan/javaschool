@@ -1,0 +1,5 @@
+Kérjen be két számot és jelenítse meg a számok
+-összegét
+-különbségét
+-szorzatát 
+-hányadosát
