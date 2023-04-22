@@ -1,0 +1,7 @@
+Kérje be a felhasználótó egy film besorolási kategóriáját (például: PG-13), majd a kategória alapján adjon magyarázó szöveget a kategóriához:
+
+G (General audience - All ages admitted) – A filmben semmi olyan nincs, ami a szülőben aggodalmat ébreszthetne. Avagy: vidd el a gyereket!
+PG (Parental guidence suggested) – A szülőknek értelmezési útmutatást kell adniuk a film bizonyos jeleneteihez, amelyek között lehet kisgyerekek számára nem való is. Avagy: ismerd a gyereked!
+PG-13 (Parents strongly cautioned) – A szülő feltétlenül legyen résen, a film ugyanis olyan jeleneteket tartalmaz, amelyek még kiskamaszok számára is felkavaróak vagy egyenesen ártalmasak lehetnek. Avagy: nézd együtt a gyerekeddel!
+R (Restricted) – 17 éves korig kizárólag felnőtt felügyelettel nézze a gyereked, felnőtt tartalmak lehetnek a filmben. Avagy: jól gondold meg, hogy erre a filmre elviszed-e a gyereked!
+NC-17 (Adults only) – 17 éves vagy annál fiatalabb néző nem ülhet be a moziba, ugyanis egyértelműen felnőtt tartalomról van szó. Röviden: hívd fel a bébicsőszt!

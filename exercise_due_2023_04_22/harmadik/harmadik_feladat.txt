@@ -1,0 +1,9 @@
+Egy versenyen rögzítik a sportolók magasságát és testsúlyát. Kérje be a felhasználótól, hogy hány versenyző van, majd kérje be a megadott számú versenyző magasságát és testsúlyát és tárolja el megfelelő adatszerkezetben, hogy a program további részében is lehessen dolgozni az adatokkal. Megjelenítés a következő legyen:
+1. sportoló magasság:
+1. sportoló testsúly: 
+
+Készítsen statisztikát:
+1. Határozza meg a versenyzők átlagmagasságát
+2. Határozza meg a bevitt magasságok móduszát (leggyakoribb érték, ami legtöbbször fordul elő a megadásnál)
+3. Határozza meg a bevitt értékek mediánját (középérték. Amennyiben sorrendbe teszi az adatokat, akkor a középső elem a medián pl. 2, 4, 12 esetén a középérték az 5. Amennyiben középen két érték szerepel, akkor ezek átlaga a medián: 2,2,3,5 esetén a medián: (2+3)/2
+5. Legalacsonyabb illletve a legnagyobb súllyal rendelkező versenyző adatai
