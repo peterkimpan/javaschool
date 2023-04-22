@@ -1,0 +1,2 @@
+Egy változó végleges értéke a 12.5
+Határozza meg a kétszeresét és a felét és írja ki a képernyőre!
