@@ -21,7 +21,11 @@ public class autok {
         mercedes.kilóméteróra = 44343;
         porsche.kilóméteróra = 44222;
 
-        porsche.kilóméterórakiír();
+        bmw.kilóméterórakiír();
+        //Első módszer: A visszakapott értéket íratom ki println-al:
+        System.out.println("Az autó új kilóméteróraállása: "+bmw.hozzáadkilómétert(200));
+        //Második módszer: Növelem a kilóméterórát a "hozzáadkilómétert" metódussal, majd kiíratom a "kilóméterórakiír"-al
+        bmw.hozzáadkilómétert(150);
         bmw.kilóméterórakiír();
     }
 }

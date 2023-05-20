@@ -8,4 +8,8 @@ public class auto{
     public void kilóméterórakiír(){
         System.out.println("A(z) "+név+" autó kilóméterórája: "+kilóméteróra);
     }
+    public Integer hozzáadkilómétert(int mennyit){
+        kilóméteróra = kilóméteróra + mennyit;
+        return kilóméteróra;
+    }
 }
