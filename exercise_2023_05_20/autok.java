@@ -24,6 +24,8 @@ public class autok {
         mercedes.kilóméteróra = 44343;
         porsche.kilóméteróra = 44222;
         */
+
+        /*Új módszer private változókkal */
         bmw.setName("BMW X5");
         mercedes.setName("Mercedes ASD");
         porsche.setName("Porsche XYZ");
@@ -36,7 +38,7 @@ public class autok {
         bmw.setKm(17755);
         mercedes.setKm(44343);
         porsche.setKm(44222);
-        
+
         bmw.kilóméterórakiír();
         //Első módszer: A visszakapott értéket íratom ki println-al:
         System.out.println("Az autó új kilóméteróraállása: "+bmw.hozzáadkilómétert(200)+" km");
