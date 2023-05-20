@@ -10,7 +10,7 @@ public class autok {
         //porsche = new auto();
         bmw.név = "X5";
         mercedes.név ="ASD";
-        porsche.név = "DSDSD";
+        porsche.név = "Porsche XYZ";
         bmw.szín = "Piros";
         mercedes.szín = "Kék";
         porsche.szín = "Fehér";
@@ -20,6 +20,6 @@ public class autok {
         bmw.kilóméteróra = 17755;
         mercedes.kilóméteróra = 44343;
         porsche.kilóméteróra = 44222;
-        porsche.kiír();
+        porsche.kilometerórakiírás();
     }
 }
