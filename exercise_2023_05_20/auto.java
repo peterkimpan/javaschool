@@ -12,17 +12,40 @@ public class auto{
         kilóméteróra = kilóméteróra + mennyit;
         return kilóméteróra;
     }
+    public void addKm(Integer km){
+        if(km>=0){
+            kilóméteróra = kilóméteróra + km;
+        }
+    }
     public void setName(String name){
-        név = name;
+        if(name != ""){
+            név = name;
+        }
+        else
+        {
+            System.out.println("Érvénytelen név");
+        }
     }
     public void setColor(String color){
-        szín = color;
+        if(color != ""){
+            szín = color;
+        }
+        else
+        {
+            System.out.println("Érvénytelen szín");
+        }
     }
     public void setChassisNumber(int number){
         alvázszám = number;
     }
     public void setKm(int km){
-        kilóméteróra = km;
+        if(km >= 0){
+            kilóméteróra = km;
+        }
+        else
+        {
+            System.out.println("Érvénytelen kilóméterállás");
+        }
     }
     public String getName(){return név;}
     public String getColor(){return szín;}
