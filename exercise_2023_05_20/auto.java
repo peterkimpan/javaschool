@@ -24,4 +24,8 @@ public class auto{
     public void setKm(int km){
         kilóméteróra = km;
     }
+    public String getName(){return név;}
+    public String getColor(){return szín;}
+    public Integer getChassisNumber(){return alvázszám;}
+    public Integer getKm(){return kilóméteróra;}
 }
