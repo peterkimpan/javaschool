@@ -5,4 +5,7 @@ public class auto{
     String szín;
     Integer alvázszám;
     Integer kilóméteróra;
+    public void kiír(){
+        System.out.println("Az autó kilóméterórája: "+kilóméteróra);
+    }
 }
