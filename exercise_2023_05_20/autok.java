@@ -8,8 +8,8 @@ public class autok {
         //bmw = new auto(); így is lehet
         //mercedes = new auto();
         //porsche = new auto();
-        bmw.név = "X5";
-        mercedes.név ="ASD";
+        bmw.név = "BMW X5";
+        mercedes.név ="Mercedes ASD";
         porsche.név = "Porsche XYZ";
         bmw.szín = "Piros";
         mercedes.szín = "Kék";
@@ -20,6 +20,8 @@ public class autok {
         bmw.kilóméteróra = 17755;
         mercedes.kilóméteróra = 44343;
         porsche.kilóméteróra = 44222;
+
         porsche.kilóméterórakiír();
+        bmw.kilóméterórakiír();
     }
 }
