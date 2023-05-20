@@ -5,6 +5,13 @@ public class auto{
     private String szín;
     private Integer alvázszám;
     private Integer kilóméteróra;
+    
+    public auto(String név, String szín, Integer alvázszám, Integer kilóméteróra){
+        this.név = név;
+        this.szín = szín;
+        this.alvázszám = alvázszám;
+        this.kilóméteróra = kilóméteróra;
+    }
     public void kilóméterórakiír(){
         System.out.println("A(z) "+név+" autó kilóméterórája: "+kilóméteróra+" km");
     }
