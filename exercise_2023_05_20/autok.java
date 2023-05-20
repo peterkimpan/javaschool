@@ -20,6 +20,6 @@ public class autok {
         bmw.kilóméteróra = 17755;
         mercedes.kilóméteróra = 44343;
         porsche.kilóméteróra = 44222;
-        porsche.kilometerórakiírás();
+        porsche.kilóméterórakiír();
     }
 }
