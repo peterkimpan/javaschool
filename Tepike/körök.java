@@ -22,7 +22,7 @@ public class körök {
                 break;
             }
             System.out.println("\t\t"+Főhős.getHős_neve()+ " lép ");
-            System.out.println("Hős léphető opciói"+"\s|\sSaját élet = "+hero.getÉlet()+"\s|\s Mana = "+Főhős.Mana+"\nA = Támadás, H = Healelás (5 Mana), D = Damage Boost támadás (6 Mana), E = Játék befejezése"+"\s |\s"+Badguy.getBadguy_neve()+"Életereje = "+Badguy.getÉlet()+"");
+            System.out.println("Hős léphető opciói"+"\s|\sSaját élet = "+hero.getÉlet()+"\s|\s Mana = "+Főhős.Mana+"\nA = Támadás, H = Healelés (5 Mana), D = Damage Boost támadás (6 Mana), E = Játék befejezése"+"\s |\s"+Badguy.getBadguy_neve()+"Életereje = "+Badguy.getÉlet()+"");
             String Hős_válasz = bevitel.next().toUpperCase();
             String Hős_Választott_lépés="AHD";
             String Hős_Választott_Manamentes_Lépés="A";
@@ -32,7 +32,7 @@ public class körök {
             }
 
             while (!Hős_Választott_lépés.contains(Hős_válasz)) {
-                System.out.println("Helytelen lépés. | A = Támadás, H = Healelás, D = Damage Boost támadás, E = Játék befejezése");
+                System.out.println("Helytelen lépés. | A = Támadás, H = Healelés, D = Damage Boost támadás, E = Játék befejezése");
                 Hős_válasz = bevitel.next().toUpperCase();
             }
 
@@ -135,7 +135,7 @@ public class körök {
                     case 9:
                     case 10:
                         if(Badguy.Mana>=5){
-                            System.out.println("\tMéregezés nagysága = "+Badguy.Poison);
+                            System.out.println("\tMérgezés nagysága = "+Badguy.Poison);
                             Badguy.Mérgezés();
                             break;
                         }
