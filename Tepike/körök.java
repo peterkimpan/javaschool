@@ -164,6 +164,7 @@ public class körök {
                } catch (InterruptedException e) {
                         e.printStackTrace();
                }
+                System.out.println("=====================================================================");
                 System.out.println("\n\t\sJelenlegi kör száma = "+Körszámláló+"| Mana változás: +2\n");
             try {
                  Thread.sleep(1000); // 2 másodperc várakozás
