@@ -26,7 +26,7 @@ public class hero {
     }
     
     public void Hero_élet(){
-    System.out.println("\nA hősünk ("+Név+")"+" Élet ereje: "+Élet);
+    System.out.println("\nA hősünk ("+Név+")"+" Életereje: "+Élet);
     }
 
     public int getDamage(){
