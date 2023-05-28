@@ -4,6 +4,5 @@ public class main {
 
         System.out.println("Játék elindult");
         körök.Rounds();
-
     }
 }
