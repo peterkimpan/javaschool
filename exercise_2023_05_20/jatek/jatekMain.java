@@ -10,8 +10,8 @@ public class jatekMain {
         Scanner bevitel = new Scanner(System.in);
         Round = 1;
         Főhős player = new Főhős("Hero",100,"healing",10);
-        Ellenség enemy = new Ellenség("BadGuy", 100, "poison",8);
-        while(player.HP > 0 && enemy.HP > 0){
+        //Ellenség enemy = new Ellenség("BadGuy", 100, "poison",8);
+        while(player.getHP() > 0 && enemy.getHP() > 0){
             //Round handler
             player.roundHandler();
             enemy.roundHandler();
